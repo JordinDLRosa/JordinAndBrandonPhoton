@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6408304069030643355}
   - component: {fileID: 6681072930259338044}
   - component: {fileID: -8308222146543353502}
+  - component: {fileID: 748360873276763496}
   m_Layer: 0
   m_Name: TutorialCube
   m_TagString: Untagged
@@ -123,3 +124,16 @@ MonoBehaviour:
   _entityBehaviourQueryOption: 0
   _entityPriorityCalculatorQueryOption: 0
   _entityReplicationFilterQueryOption: 0
+--- !u!114 &748360873276763496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8263120095226433805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9f2b822560d4890a3fb7ff69606827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponObjects: []

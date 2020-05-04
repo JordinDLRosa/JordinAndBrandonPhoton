@@ -296,6 +296,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1009905374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8263120095226433805, guid: a48867c2a488084409ed7937bf1b010f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6180945379419879407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1009905375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009905374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94c8ef1c073bb742bd8647154c8ecb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6180945379419879407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,5 +386,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TutorialCube
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 748360873276763496, guid: a48867c2a488084409ed7937bf1b010f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a48867c2a488084409ed7937bf1b010f, type: 3}
